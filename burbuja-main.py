@@ -2,7 +2,7 @@
 
 #Definimos funcion para imprimir arreglos
 def imprimir_arreglos(arreglo):
-  for i in range(len(arreglo) - 1 ):  #Se puede utilizar son -1, el efecto es el mismo
+  for i in range(len(arreglo) - 1 ):  #Se puede utilizar sin -1, el efecto es el mismo
     print(f'[{arreglo[i]}]', end = "")
 
 #Definimos funcion para ordenar, por Burbuja, los elementos de la lista
