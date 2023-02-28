@@ -5,7 +5,7 @@ def imprimir_arreglos(arreglo):
   for i in range(len(arreglo) - 1 ):
     print(f'[{arreglo[i]}]', end = "")
 
-#DEfinimos funcion para ordenar, por Burbuja, los elementos de la lista
+#Definimos funcion para ordenar, por Burbuja, los elementos de la lista
 def algoritmo_burbuja(arreglo):
   for i in range(len(arreglo) - 1 ):
     for j in range(len(arreglo)-1-i):
