@@ -1,3 +1,5 @@
+'''Este algoritmo permite ordenar arreglos basicos por medio del método de la Burbuja'''
+
 #Definimos funcion para imprimir arreglos
 def imprimir_arreglos(arreglo):
   for i in range(len(arreglo) - 1 ):
